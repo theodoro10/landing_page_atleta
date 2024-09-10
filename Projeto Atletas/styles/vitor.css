@@ -1,0 +1,137 @@
+:root{
+    --cor-primaria: #010101;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #fd2222;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color:var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho{
+    width: 1124px;
+    margin: 61px auto 90px auto;
+}
+
+.cabecalho_menu_link{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    /* comandos em breve */
+    font-family: var(--fonte-secundaria);
+    padding: 20px;
+}
+
+.apresentacao{
+    width: 1124px;
+    margin: 0px auto 30px auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+
+    /* mais comandos em breve */
+}
+
+.apresentacao_contexto{
+    width: 602px;
+}
+
+.apresentacao_contexto_texto{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao_contexto_titulo{
+    font-size: 36px;
+    color: var(--cor-terciaria);
+    margin-bottom: 40px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao_links{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+.apresentacao_links_link{
+    display: grid;                          /* para versao 2.0 */
+    grid-template-columns: 20px 180px;       /* para versao 2.0 */
+    justify-content:  center;               /* para versao 2.0 */
+    border: 2px solid var(--cor-terciaria);
+    padding: 21px 0px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    width: 378px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.apresentacao_links_subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center; /* para versao 2.0 */
+}
+
+.apresentacao_links_link:hover{
+    background-color: var(--cor-hover);
+}
+
+
+/* página hugo caldearno */
+.apresentacao_listas{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.apresentacao_listas_subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center; /* para versao 2.0 */
+}
+
+.apresentacao_listas ul{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao_listas li{
+    margin-top: 10px;
+}
+
+.apresentacao_contexto_3{
+    margin: 10px 100px 1000px 280px;
+}
+
+.apresentacao_contexto_texto3{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    font-family: var(--fonte-secundaria);
+}
